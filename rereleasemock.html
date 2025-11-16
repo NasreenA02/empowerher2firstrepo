@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{ margin: 0%; background-color: rgb(249, 250, 251); font-family: sans-serif;  }
+    header{ display: flex; justify-content: space-between; padding: 20px; align-items: center; }
+    header h1{ margin: 0; }
+    header nav{ display: flex; gap: 20px; justify-content: center; margin: 15 0;}
+    header button{ padding: 10px , 20px; cursor: pointer; background: red;}
+  
+section.top {display:grid; grid-template-columns:(3,1 fr); gap: 20px; padding: 20px;}
+section.top div{ background-color: red;text-align: center; padding: 20px;}
+section.top div img{ max-width:40%; width: 40%; display: block; margin: 0 auto;}
+section.top div button{ padding: 8px 15px; cursor: pointer;}
+
+section.mid{display: grid; grid-template-columns:(4,1 fr); grid-template-rows: (2, auto); gap: 20px; padding: 20px;}
+section.mid>div{ border: 1px solid #ccc; text-align: center; padding: 20px;}
+section.mid img{ max-width: 40px; width: 40px;}
+section.mid h3+p{ font-size: 14px;}
+section.mid p+div{margin-top: 10px; font-weight: bold;}
+
+footer{ display: flex; justify-content: space-between;}
+footer img{ max-width: 40%;}
+footer div img{ margin-right: 10px; max-width:100px;}
+footer div{ align-items: center;}
+</style>
 <body>
   <header>
     <h1>DOMINO'S PIZZA</h1>
@@ -16,45 +39,45 @@
                <a href="#CORPORATE ENQUIRY">CORPORATE ENQUIRY</a>
                 <a href="#CONTACT">#CONTACT</a>
         </nav>
-        <button>Download App</button>
     </div>
+    <button>Download App</button>
   </header>
   <section class="top">
     <div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
+        <h3>VEG PIZZA</h3>
+        <P> a delightful veggie lovers! choose from <br>our wide range of delicious vegetarian<br> pizzas, its softer and testier</P>
+        <button>VIEW ALL</button>
     </div>
     <div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
+        <h3>OUR MENU</h3>
+        <P>indulge into mouth-watering taste of pizza <br>mania range, perfect answer to all your food<br> cravings</P>
+        <button>VIEW ALL</button>
     </div>
     <div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
+        <h3>OUR MENU</h3>
+        <P>choose your favourite non-veg pizzas from <br>the dominos pizza menu. get fresh non<br> veg pizza with your choice of crust & <br>toppings</P>
+        <button>VIEW ALL</button>
+    </div>
+   <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
+        <h3>VEG PIZZA</h3>
+        <P> a delightful veggie lovers! choose from <br>our wide range of delicious vegetarian <br>pizzas, its softer and testier</P>
+        <button>VIEW ALL</button>
     </div>
     <div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
+        <h3>OUR MENU</h3>
+        <P>indulge into mouth-watering taste of pizza <br>mania range, perfect answer to all your food <br>cravings</P>
+        <button>VIEW ALL</button>
     </div>
     <div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
-    </div>
-    <div>
-        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="logo">
-        <h3></h3>
-        <P></P>
-        <button></button>
+        <h3>OUR MENU</h3>
+        <P>choose your favourite non-veg pizzas from <br>the dominos pizza menu. get fresh non <br>veg pizza with your choice of crust & <br> toppings</P>
+        <button>VIEW ALL</button>
     </div>
   </section>
   <section class="mid">
@@ -107,7 +130,7 @@
     <div>
         <div>
             <h1>Unlock Exclusive Offers</h1>
-            <p>For lightning fast ordering experience download the Domino's App</p>
+            <p>For lightning fast ordering experience download <br>the Domino's App</p>
         </div>
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.09%20PM_558991.png" alt="apps">
         <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.43%20PM_652243.png" alt="apps">
