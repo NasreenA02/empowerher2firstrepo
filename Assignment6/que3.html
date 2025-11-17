@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Product Card</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f3f6;
+    }
+
+ 
+    .product-card {
+      width: 300px;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      margin: 20px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      border: 1px solid #e0e0e0;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+   
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 3px;
+    }
+
+    .subtext {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+   
+    .rating-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;   
+  overflow: hidden;    
+}
+    .rating {
+      background: #388e3c;
+      color: white;
+      font-weight: bold;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .reviews {
+      color: #444;
+      font-size: 14px;
+    }
+
+   .assured {
+  width: 50px;      
+  height: auto;
+  display: block;
+  object-fit: contain; 
+}  
+    .price-section {
+      margin: 8px 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .old-price {
+      text-decoration: line-through;
+      font-weight: normal;
+      font-size: 15px;
+      color: #777;
+      margin-left: 8px;
+    }
+
+    .discount {
+      color: #388e3c;
+      font-weight: bold;
+      margin-left: 8px;
+      font-size: 15px;
+    }
+
+   
+    .bank-offer {
+      color: #0f8a65;
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-card">
+
+    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="Product">
+
+    <div class="product-title">SAMSUNG Galaxy Watch6 LTE</div>
+
+    <div class="subtext">Graphite Strap, 44mm</div>
+
+    <div class="rating-box">
+      <div class="rating">4.3 ★</div>
+      <div class="reviews">(973)</div>
+      <img class="assured" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="Assured Badge">
+    </div>
+
+    <div class="price-section">
+      ₹18,999
+      <span class="old-price">₹41,999</span>
+      <span class="discount">54% off</span>
+    </div>
+
+    <div class="bank-offer">Bank Offer</div>
+
+  </div>
+
+</body>
+</html>

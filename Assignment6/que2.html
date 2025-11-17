@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Box Model</title>
+
+  <style>
+    .main-box {
+      width: 350px;
+      padding: 30px;
+      margin: 40px auto;
+      background: #e1c407; 
+      border: 2px solid #000;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .white-box {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="main-box">
+    <h2>Highest & <br> Average CTC</h2>
+    <div class="white-box">
+      <p>Expected Increase in<br> Salary Potential</p>
+      <h2>60%</h2>
+    </div>
+    <div class="white-box">
+      <p>Average CTC</p>
+      <h2>₹6.1 LPA</h2>
+    </div>
+    <div class="white-box">
+      <p>Top Roles</p>
+    <h2> Frontend, Backend, Full-Stack</h2>
+    </div>
+    <div class="white-box">
+      <p>Hiring Partners </p>
+       <h2>1,000+ companies</h2>
+    </div>
+  </div>
+
+</body>
+</html>
