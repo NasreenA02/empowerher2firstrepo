@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+  width: 600px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.box {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.b7 { background: #e67e22; }
+.b5 { background: #8e44ad; }
+.b2 { background: #e74c3c; }
+
+.b8 { background: #1abc9c; }
+.b6 { background: #27ae60; }
+.b3 { background: #2980b9; }
+
+.b9 { background: #7b0b21; }
+.b1 { background: #16a3d9; }
+.b4 { background: #f1c40f; }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+  <div class="box b2">2</div>
+  <div class="box b3">3</div>
+  <div class="box b4">4</div>
+
+  <div class="box b5">5</div>
+  <div class="box b6">6</div>
+  <div class="box b1">1</div>
+
+  <div class="box b7">7</div>
+  <div class="box b8">8</div>
+  <div class="box b9">9</div>
+</div>
+
+</body>
+</html>

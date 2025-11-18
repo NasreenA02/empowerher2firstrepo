@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Schedule</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.schedule-container{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 120px repeat(5, 1fr);
+    gap: 15px;
+    height: auto;
+}
+
+
+.time-column{
+    display: grid;
+    grid-template-rows: repeat(10, 60px);
+    gap: 10px;
+}
+
+.time{
+    background: #b2e6e6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.day-column{
+    display: grid;
+    grid-template-rows: repeat(8, 60px);
+    gap: 10px;
+}
+
+.day-title{
+    font-weight: bold;
+}
+
+
+.monday .block{ background: #eec7e8; }
+.tuesday .block{ background: #f5e7a1; }
+.wednesday .block{ background: #eec7e8; }
+.thursday .block{ background: #f5e7a1; }
+.friday .block{ background: #eec7e8; }
+
+.block{
+    border-radius: 20px;
+}
+.blank{
+    background-color: white;
+    border-radius: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;"><i>Weekly Schedule</i></h1>
+
+<div class="schedule-container">
+
+    
+    <div class="time-column">
+         <div class="blank"></div>
+         <div class="time">08:00</div>
+        <div class="time">09:00</div>
+        <div class="time">10:00</div>
+        <div class="time">11:00</div>
+        <div class="time">12:00</div>
+        <div class="time">13:00</div>
+        <div class="time">14:00</div>
+        <div class="time">15:00</div>
+        <div class="time">16:00</div>
+    </div>
+
+   
+    <div class="day-column monday">
+        <div class="day-title">Monday</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+    
+    <div class="day-column tuesday">
+        <div class="day-title">Tuesday</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+  
+    <div class="day-column wednesday">
+        <div class="day-title">Wednesday</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+    
+    <div class="day-column thursday">
+        <div class="day-title">Thursday</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+  
+    <div class="day-column friday">
+        <div class="day-title">Friday</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
