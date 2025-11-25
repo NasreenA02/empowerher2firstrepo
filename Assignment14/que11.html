@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Practice</title>
+</head>
+<body>
+
+  <h1 id="main-title">Original Title</h1>
+
+  <p>This is paragraph 1.</p>
+  <p>This is paragraph 2.</p>
+  <p>This is paragraph 3.</p>
+
+  <div class="container">
+    <p>Inside container div</p>
+  </div>
+
+  <script>
+    
+    const heading = document.getElementById("main-title");
+    heading.textContent = "Welcome to the DOM World!";
+
+    
+    const paragraphs = document.getElementsByTagName("p");
+    for (let p of paragraphs) {
+      p.style.color = "blue";
+    }
+
+    const containerDiv = document.querySelector(".container");
+    containerDiv.style.backgroundColor = "yellow";
+  </script>
+
+</body>
+</html>
